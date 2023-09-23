@@ -27,7 +27,7 @@ function leituraArquivo(xml) {
         <th></th>
     </tr>`;
 
-    var arquivo = xmlArquivo.getElementsByTagName("alunos");
+    var arquivo = xmlArquivo.getElementsByTagName("aluno");
     console.log(arquivo);
 
     for (i = 0; i < arquivo.length; i++) {
@@ -44,5 +44,5 @@ function leituraArquivo(xml) {
             </tr>`
     }
 
-    document.getElementById("tblAlunos7A").innerHTML = table;
+    //document.getElementById("tblAlunos7A").innerHTML = table;
 }
